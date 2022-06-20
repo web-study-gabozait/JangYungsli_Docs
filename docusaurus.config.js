@@ -34,14 +34,13 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/web-study-gabozait/JangYungsli_Docs/tree/master",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/web-study-gabozait/JangYungsli_Docs",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -55,7 +54,7 @@ const config = {
       title: "장영실 Docs",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/장영실.png",
       },
       items: [
         {
@@ -64,9 +63,9 @@ const config = {
           label: "업적",
           position: "left",
         },
-        { to: "blog", label: "블로그", position: "left" },
+        // { to: "blog", label: "블로그", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/web-study-gabozait/JangYungsli_Docs",
           label: "GitHub",
           position: "right",
         },
@@ -84,24 +83,7 @@ const config = {
             },
             {
               label: "스토리",
-              to: "/docs/story",
-            },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              to: "/docs/장영실의 스토리/장영실의 가족관계",
             },
           ],
         },
@@ -114,7 +96,7 @@ const config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/web-study-gabozait/JangYungsli_Docs",
             },
           ],
         },
